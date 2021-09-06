@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: ../yolo_data/train/train.txt  # 118k images
+val: ../yolo_data/val/val.txt  # 5k images
+test: ../yolo_data/test/test.txt  # 20k images for submission to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 3
+
+# class names
+names: ['class0','class1', 'class2']
